@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    text-align: center;
+    font-family: Helvectica;
+     grid-template-columns: [li]300px  [l2]900px;
+     grid-template-rows: 70px 70px 350px 70px;
+     gap: 15px;
+     
+    
+}
+
+.header{
+    background-color: purple;
+    height: auto;
+    grid-column:1/3;
+    
+    
+
+    
+}
+.sidebar{
+background-color: turquoise;
+
+grid-row: 2/4;
+height: auto;
+
+}
+.footer{
+    background-color: yellow;
+    grid-row: 4/-2;
+    width: 1215px;
+    height: auto;
+   
+    
+}
+.navi{
+    background-color: aquamarine;
+    grid-row: 2/3;
+    height: auto;
+    
+}
+.article{
+    background-color: blueviolet;
+    grid-column: 2/3;
+
+}
