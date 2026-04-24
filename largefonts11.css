@@ -2,7 +2,7 @@
     display: grid;
     text-align: center;
     font-family: Helvectica;
-     grid-template-columns:fr 3fr;
+     grid-template-columns:2fr 5fr;
      grid-template-rows: 1fr 1fr 5fr 1fr;
      grid-template-areas: 
      "box-1 box-1"
