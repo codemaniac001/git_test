@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns:0.5fr 1fr;
-    grid-template-rows: 0.25fr 0.25fr 0.5fr 0.25fr;
+    grid-template-rows: 0.25fr 0.1fr 0.5fr 0.25fr;
     font-family: Helvectica;
     grid-template-areas: 
     "box1 box1"
@@ -14,7 +14,17 @@
 }
 .navi{
     background-color: red;
-    padding: 20px;
+    
+}
+.menu2{
+    color: white;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-right: 60px;
+   
+    
+    
+    
 }
 .sidebar{
     background-color: red;
@@ -32,14 +42,14 @@
     width: 50px;
     background-color: white;
     text-align: center;
-    padding: 50px;
+   
 }
 .side-content{
     height: 50px;
     width: 50px;
     background-color: white;
     text-align: center;
-    padding: 50px;
+   
 }
 ul{
     display: flex;
@@ -54,6 +64,7 @@ ul{
 }
 .footer{
     background-color: grey;
+    text-align: center;
 }
 .article{
     display: grid;
