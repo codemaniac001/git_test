@@ -1,0 +1,54 @@
+.container {
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    gap: 0.5px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.Nitesh {
+    border:auto solid rgb(229, 229, 233);
+   
+
+    
+
+    background-color: rgb(229, 229, 233);
+
+   
+
+}
+
+.singh {
+    border:auto solid rgb(229, 229, 233);
+   
+
+
+    background-color: rgb(229, 229, 233);
+
+    
+}
+
+.the {
+    border: auto solid rgb(229, 229, 233);
+   
+
+
+    background-color: rgb(229, 229, 233);
+
+    
+}
+
+.great {
+    border: auto solid rgb(229, 229, 233);
+   
+
+
+    background-color: rgb(229, 229, 233);
+
+    
+}
