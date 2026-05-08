@@ -4,16 +4,17 @@
     height: 300px;
     gap: 0.5px;
      display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: left;
+    align-items:stretch;
 
 
 }
 
 .Nitesh {
     border:auto solid rgb(229, 229, 233);
-   
+    display: flex;
+    flex-basis: 60px;
 
     
 
