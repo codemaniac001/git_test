@@ -1,14 +1,19 @@
-
-
-.nitesh{
-height: 100px;
-width: 100px;
-border: 2px solid red;
-background-color: rgb(204, 25, 25);
-display: flex;
-justify-content: center;
-align-items: center;
+.container {
+    height: 600px;
+    width: 1400px;
+    border: 2px solid rgb(76, 76, 178);
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    align-items: center;
 }
-*{
-    background-color: rgb(118, 118, 208);
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    background-color: rgb(204, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
