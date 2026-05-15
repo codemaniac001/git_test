@@ -1,9 +1,10 @@
+
 .container {
     padding: 0;
     margin: 0;
     height: 300px;
     gap: 0.5px;
-    width: 200px;
+   
      display: flex;
     flex-direction: row;
     justify-content: left;
@@ -12,11 +13,20 @@
 
 }
 
-.Nitesh {
-    border:auto solid rgb(229, 229, 233);
-    width: 250px;
+ul{
     display: flex;
-    flex-shrink: 4;
+    list-style-type: none;
+    gap: 12px;
+    align-self: flex-start;
+
+}
+
+.Nitesh {
+    border:2px solid rgb(229, 229, 233);
+   display: flex;
+   
+  
+    
 
     
 
@@ -27,9 +37,9 @@
 }
 
 .singh {
-    border:auto solid rgb(229, 229, 233);
+    border:2px solid rgb(229, 229, 233);
    width: 250px;
-    flex-shrink: 1;
+    
 
     background-color: rgb(229, 229, 233);
 
@@ -37,8 +47,8 @@
 }
 
 .the {
-    border: auto solid rgb(229, 229, 233);
-   
+    border: 2px solid rgb(229, 229, 233);
+    
 
 
     background-color: rgb(229, 229, 233);
@@ -47,11 +57,29 @@
 }
 
 .great {
-    border: auto solid rgb(229, 229, 233);
-   
+    border: 2px solid rgb(229, 229, 233);
+    
 
 
     background-color: rgb(229, 229, 233);
 
     
+}
+#container2{
+
+   padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 15px;
+    align-items: flex-start;
+  
+
+}
+.logo a{
+   display: flex;
+   flex-wrap: wrap;
+    margin-right: auto;
+    align-items: flex-end;
 }
