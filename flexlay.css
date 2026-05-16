@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 10px;
+
+    justify-content: space-between;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding-right: 10px;
+
+    background-color: rgb(164, 162, 162);
+    color: white;
+    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    gap: 30px;
+    padding-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.rectangle{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.rectangle a{
+    width: 450px;
+    height: 1px;
+    padding: 20px;
+    border-radius:25px;
+    border: 1px  solid black;
+    margin: 20px;
+
+}
