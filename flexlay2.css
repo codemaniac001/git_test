@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+}
+.sidebar{
+    
+    width: 900px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    
+    padding: 5px;
+    padding-left: 16px;
+    background-color: purple;
+    color: black;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
