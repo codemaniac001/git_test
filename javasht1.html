@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me with my mouse button left right center</button>
+    <p id="message"></p>
+    <script>
+        let btn=document.querySelector("#btn");
+        btn.addEventListener('contextmenu',(e)=>{
+            e.preventDefault();
+        });
+        btn.addEventListener('mouseup',(e)=>{
+            let msg=document.querySelector('#message');
+            switch(e.button){
+                case 0:
+                    msg.textContent='left mouse clicked';
+                    break;
+                case 1:
+                    msg.textContent='miiddle mouse clicked'
+                    break;
+                case 2:
+                    msg.textContent='Right mouse clicked'
+                    break;
+                default:
+                    msg.textContent='unknown mouse button'
+            }
+            
+        });
+    </script>
+</body>
+</html>
